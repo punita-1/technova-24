@@ -1,0 +1,124 @@
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-100);
+  width: 1440px;
+  height: 950px;
+}
+.contact-us,
+.gpt-3-all-rights {
+  position: absolute;
+  top: 908px;
+  left: 630px;
+}
+.contact-us {
+  top: 175px;
+  left: 310px;
+  font-size: var(--font-size-43xl);
+  letter-spacing: -0.04em;
+  line-height: 75px;
+  font-weight: 800;
+  font-family: var(--font-manrope);
+  background: linear-gradient(89.97deg, #ae67fa, #f49867 97.4%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  display: inline-block;
+  width: 821px;
+}
+.links1,
+.overons {
+  position: absolute;
+  left: 0;
+}
+.links1 {
+  top: 0;
+  font-size: var(--font-size-sm);
+}
+.overons {
+  top: 53px;
+}
+.contact,
+.counters,
+.links {
+  position: absolute;
+  top: 135px;
+  left: 0;
+}
+.contact,
+.links {
+  top: 176px;
+}
+.links {
+  top: 634px;
+  left: 611px;
+  width: 72px;
+  height: 191px;
+}
+.company,
+.privacy-policy {
+  position: absolute;
+  top: 94px;
+  left: 0;
+}
+.company {
+  top: 634px;
+  left: 845px;
+  width: 106px;
+  height: 150px;
+}
+.crechterwoord-k12-182 {
+  position: absolute;
+  top: 53px;
+  left: 0;
+  line-height: 20px;
+  display: inline-block;
+  width: 116px;
+}
+.div {
+  top: 116px;
+  left: 0;
+  display: inline-block;
+}
+.div,
+.get-in-touch,
+.infopaymenet {
+  position: absolute;
+  width: 116px;
+}
+.infopaymenet {
+  top: 157px;
+  left: 0;
+  display: inline-block;
+}
+.get-in-touch {
+  top: 634px;
+  left: 1119px;
+  height: 172px;
+}
+.crechterwoord-k12-1821 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 168px;
+}
+.footer,
+.logo {
+  position: absolute;
+  top: 694px;
+  left: 206px;
+  width: 168px;
+  height: 30px;
+}
+.footer {
+  top: 4621px;
+  left: 0;
+  width: 1440px;
+  height: 950px;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+  font-family: var(--font-roboto);
+}

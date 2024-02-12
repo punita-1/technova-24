@@ -1,0 +1,105 @@
+.home {
+  left: 0;
+}
+.about1,
+.contact2,
+.events1,
+.gallery1,
+.home {
+  position: absolute;
+  top: 0;
+  font-weight: 500;
+  cursor: pointer;
+}
+.gallery1 {
+  text-decoration: none;
+  left: 122px;
+  color: inherit;
+}
+.about1,
+.contact2,
+.events1 {
+  left: 253px;
+}
+.contact2,
+.events1 {
+  left: 377px;
+}
+.contact2 {
+  left: 507px;
+}
+.nav-elements {
+  margin: 0;
+  position: absolute;
+  top: 16px;
+  left: 158px;
+  width: 577px;
+  height: 25px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-manrope);
+}
+.group-div:hover,
+.nav-elements:hover {
+  cursor: pointer;
+}
+.rectangle-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  width: 152px;
+  height: 58px;
+}
+.sign-up {
+  position: absolute;
+  top: 16px;
+  left: 45px;
+  font-weight: 500;
+}
+.sign-in,
+.vector-parent {
+  cursor: pointer;
+  text-decoration: none;
+  position: absolute;
+  color: inherit;
+}
+.vector-parent {
+  top: 0;
+  left: 83px;
+  width: 152px;
+  height: 58px;
+}
+.sign-in {
+  top: 16px;
+  left: 0;
+  font-weight: 500;
+}
+.group-div {
+  position: absolute;
+  top: 0;
+  left: 961px;
+  width: 235px;
+  height: 58px;
+}
+.dcrust-logo-1-icon {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 78px;
+  height: 67px;
+  object-fit: cover;
+}
+.nav {
+  margin: 0;
+  position: absolute;
+  top: 55px;
+  left: 109px;
+  width: 1196px;
+  height: 70px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-manrope);
+}

@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-roboto: Roboto;
+  --font-manrope: Manrope;
+
+  /* font sizes */
+  --font-size-lgi: 19px;
+  --font-size-lg: 18px;
+  --font-size-43xl: 62px;
+  --font-size-xs: 12px;
+  --font-size-5xl: 24px;
+  --font-size-base: 16px;
+  --font-size-15xl: 34px;
+  --font-size-3xs: 10px;
+  --font-size-lgi-3: 19.3px;
+  --font-size-xs-6: 11.6px;
+  --font-size-sm: 14px;
+
+  /* Colors */
+  --color-black: #000;
+  --color-white: #fff;
+  --color-gray-100: #031b34;
+  --color-gray-200: #001429;
+  --color-salmon: #ff8a71;
+  --color-lightskyblue: #81afdd;
+  --color-gainsboro: #d9d9d9;
+  --color-darkslateblue-100: #042c54;
+
+  /* Border radiuses */
+  --br-8xs: 5px;
+  --br-21xl: 40px;
+  --br-xl: 20px;
+}

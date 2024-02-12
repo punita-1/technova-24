@@ -1,0 +1,7 @@
+.registernow-phase1-rules {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-200);
+  height: 1024px;
+  overflow: hidden;
+}

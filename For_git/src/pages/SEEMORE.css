@@ -1,0 +1,7 @@
+.see-more {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-200);
+  height: 5580px;
+  overflow: hidden;
+}

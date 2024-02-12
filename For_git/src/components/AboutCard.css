@@ -1,0 +1,234 @@
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-right {
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.about-child,
+.mask-group-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1170px;
+  height: 695px;
+}
+.about-child {
+  background-color: var(--color-darkslateblue-100);
+}
+.mask-group-icon {
+  opacity: 0;
+}
+.mask-group-icon.animate {
+  animation: 2s ease 0s infinite normal forwards slide-in-left;
+}
+.about-technova {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: -0.04em;
+  line-height: 75px;
+  font-weight: 800;
+  white-space: pre-wrap;
+}
+.group-child {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  background: linear-gradient(103.22deg, #ae67fa, #f49867 97.4%), #fff;
+  width: 38px;
+  height: 3px;
+}
+.about-technova-parent {
+  position: absolute;
+  top: 0;
+  left: 9px;
+  width: 182px;
+  height: 75px;
+  opacity: 0;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+}
+.about-technova-parent.animate,
+.group-container.animate {
+  animation: 2s ease 0s 1 normal forwards slide-in-left;
+}
+.opportunity {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: -0.04em;
+  line-height: 75px;
+  font-weight: 800;
+}
+.opportunity-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 136px;
+  height: 75px;
+}
+.opportunity-for-personal {
+  margin: 0;
+}
+.span1 {
+  font-weight: 500;
+  font-family: var(--font-manrope);
+}
+.opportunity-for-personal-container {
+  position: absolute;
+  top: 101px;
+  left: 0;
+  font-size: var(--font-size-base);
+  line-height: 30px;
+  color: var(--color-lightskyblue);
+  display: inline-block;
+  width: 334px;
+  height: 92px;
+}
+.group-container {
+  position: absolute;
+  top: 382px;
+  left: 5px;
+  width: 334px;
+  height: 193px;
+  opacity: 0;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+}
+.hands-on-experiential-learning-container {
+  position: absolute;
+  top: 101px;
+  left: 0;
+  line-height: 30px;
+  display: inline-block;
+  width: 334px;
+  height: 92px;
+}
+.recognition-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 136px;
+  height: 75px;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+}
+.hands-on-experiential-learning-parent {
+  position: absolute;
+  top: 382px;
+  left: 340px;
+  width: 334px;
+  height: 193px;
+  opacity: 0;
+}
+.hands-on-experiential-learning-parent.animate {
+  animation: 2s ease 0s 1 normal forwards slide-in-top;
+}
+.inspiration-to-think-container {
+  position: absolute;
+  top: 268px;
+  left: 1px;
+  line-height: 30px;
+  display: inline-block;
+  width: 334px;
+  height: 92px;
+}
+.explore-the-events {
+  position: absolute;
+  top: 0;
+  left: 204px;
+  line-height: 30px;
+  font-weight: 500;
+  color: var(--color-salmon);
+}
+.education-parent {
+  position: absolute;
+  top: 167px;
+  left: 0;
+  width: 113px;
+  height: 75px;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+}
+.inspiration-to-think-creativel-parent {
+  position: absolute;
+  top: 215px;
+  left: 716px;
+  width: 347px;
+  height: 360px;
+  opacity: 0;
+}
+.inspiration-to-think-creativel-parent.animate,
+.welcome-to-technova.animate {
+  animation: 2s ease 0s 1 normal forwards slide-in-right;
+}
+.welcome-to-technova,
+.why-join-us {
+  position: absolute;
+  display: inline-block;
+  opacity: 0;
+}
+.welcome-to-technova {
+  top: 17px;
+  left: 314px;
+  line-height: 30px;
+  width: 731px;
+  height: 179px;
+}
+.why-join-us {
+  top: 200px;
+  left: 0;
+  font-size: var(--font-size-15xl);
+  line-height: 45px;
+  font-weight: 800;
+  background: linear-gradient(103.22deg, #ae67fa, #f49867 97.4%), #fff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 472px;
+}
+.why-join-us.animate {
+  animation: 2s ease 0s 1 normal forwards slide-in-left;
+}
+.about,
+.group-parent {
+  position: absolute;
+  top: 57px;
+  left: 52px;
+  width: 1063px;
+  height: 575px;
+}
+.about {
+  top: 1044px;
+  left: 135px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 1170px;
+  height: 695px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-lightskyblue);
+  font-family: var(--font-manrope);
+}

@@ -1,0 +1,121 @@
+@keyframes scale-up {
+  0% {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+@keyframes slide-in-right {
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.feature-image-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1170px;
+  height: 1049px;
+  object-fit: contain;
+  opacity: 0.1;
+}
+.previously {
+  position: absolute;
+  top: 38.3px;
+  left: 240px;
+  font-size: var(--font-size-15xl);
+  line-height: 45px;
+  font-weight: 800;
+  background: linear-gradient(89.97deg, #ae67fa, #f49867 97.4%), #fff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  width: 426px;
+  height: 37.5px;
+}
+.explore-the-past,
+.request-early-access {
+  position: absolute;
+  top: 97.4px;
+  left: 241px;
+  line-height: 30px;
+  display: inline-block;
+  width: 479px;
+  height: 50px;
+}
+.request-early-access {
+  top: 157.4px;
+  font-weight: 500;
+  color: var(--color-salmon);
+  width: 271px;
+  height: 25px;
+}
+.previously-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-black);
+  width: 189.1px;
+  height: 59.4px;
+}
+.visit-gallery1 {
+  margin: 0;
+}
+.visit-gallery {
+  position: absolute;
+  top: 12.6px;
+  left: 45.3px;
+  line-height: 30px;
+}
+.previously1 {
+  cursor: pointer;
+  text-decoration: none;
+  position: absolute;
+  top: 262.6px;
+  left: 240px;
+  width: 189.1px;
+  height: 72.6px;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+}
+.istockphoto-1359585151-612x612-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 204px;
+  height: 229.8px;
+  object-fit: cover;
+}
+.istockphoto-1359585151-612x612-icon:hover {
+  animation: 2s ease 0s 1 normal none scale-up;
+  opacity: 1;
+}
+.content {
+  position: absolute;
+  top: 82.4px;
+  left: 288px;
+  width: 720px;
+  height: 335.2px;
+  opacity: 0;
+}
+.content.animate {
+  animation: 2s ease 0s 1 normal forwards slide-in-right;
+}
+.feature {
+  position: absolute;
+  top: 1739px;
+  left: 135px;
+  width: 1170px;
+  height: 1049px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-lightskyblue);
+  font-family: var(--font-manrope);
+}
